@@ -8,6 +8,7 @@ import ArticleList from './components/articleList/';
 import NewArticleForm from './components/newArticleForm/';
 import reducers from './reducers/';
 import INITIAL_STATE from './constants/initialState';
+import './components/commonStyles';
 
 const store = createStore(reducers, INITIAL_STATE);
 
